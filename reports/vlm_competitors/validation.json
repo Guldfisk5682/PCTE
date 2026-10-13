@@ -1,0 +1,33 @@
+{
+  "completed_runs": 16,
+  "expected_runs": 16,
+  "histories_finite": true,
+  "updates_per_domain": 1000,
+  "samples_per_domain": 30000,
+  "full_target_evaluation_counts": {
+    "Art": 2427,
+    "Clipart": 4365,
+    "Product": 4439,
+    "Real World": 4357
+  },
+  "restored_predictions_verified": true,
+  "fixed_final_checkpoint": true,
+  "seed": 42,
+  "backbone": "RN50",
+  "native_losses_preserved": true,
+  "native_long_budgets_run": false,
+  "runtime_hashes": [
+    "3eac5fb698175fd7d24b380efe2f2577c31977ff218b8298a35f5497eb327fd7",
+    "db98db997f98219f6a10533428c2e2f25eba676cb5e3ac21e0408f3a0f64ae96"
+  ],
+  "pytest_passed": 57,
+  "fresh_model_checkpoint_restorations": 16,
+  "stratified_prediction_samples_per_target": 96,
+  "prediction_disagreements": 0,
+  "preserved_runtime_hashes": {
+    "baseline": "4ea3c0f993cdea0b38ff165236b94044e1308d2bec7c55b178fb9a13727edc28",
+    "reliability": "f33008a054906a428f079d001a7eb84df87a97c8bd6789d231662b39c6ff5bb2",
+    "followup": "67de3f781e3c9565d874a5e3e641b71c3e0972fafbef99a4fb9aee4e9135084a",
+    "all_preserved": true
+  }
+}

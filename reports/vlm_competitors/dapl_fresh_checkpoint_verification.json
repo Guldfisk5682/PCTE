@@ -1,0 +1,166 @@
+{
+  "device": "cpu",
+  "runs_verified": 8,
+  "rows": [
+    {
+      "method": "DAPrompt",
+      "source": "Art",
+      "all_saved_tensors_exact": true,
+      "different_fresh_initialization": true,
+      "targets": {
+        "Clipart": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Product": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Real World": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        }
+      }
+    },
+    {
+      "method": "DAPrompt",
+      "source": "Clipart",
+      "all_saved_tensors_exact": true,
+      "different_fresh_initialization": true,
+      "targets": {
+        "Art": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Product": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Real World": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        }
+      }
+    },
+    {
+      "method": "DAPrompt",
+      "source": "Product",
+      "all_saved_tensors_exact": true,
+      "different_fresh_initialization": true,
+      "targets": {
+        "Art": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Clipart": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Real World": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        }
+      }
+    },
+    {
+      "method": "DAPrompt",
+      "source": "Real World",
+      "all_saved_tensors_exact": true,
+      "different_fresh_initialization": true,
+      "targets": {
+        "Art": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Clipart": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Product": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        }
+      }
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Art",
+      "all_saved_tensors_exact": true,
+      "different_fresh_initialization": true,
+      "targets": {
+        "Clipart": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Product": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Real World": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        }
+      }
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Clipart",
+      "all_saved_tensors_exact": true,
+      "different_fresh_initialization": true,
+      "targets": {
+        "Art": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Product": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Real World": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        }
+      }
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Product",
+      "all_saved_tensors_exact": true,
+      "different_fresh_initialization": true,
+      "targets": {
+        "Art": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Clipart": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Real World": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        }
+      }
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Real World",
+      "all_saved_tensors_exact": true,
+      "different_fresh_initialization": true,
+      "targets": {
+        "Art": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Clipart": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        },
+        "Product": {
+          "samples": 96,
+          "prediction_disagreements": 0
+        }
+      }
+    }
+  ]
+}

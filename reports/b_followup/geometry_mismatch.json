@@ -1,0 +1,1154 @@
+[
+  {
+    "source": "Art",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Product",
+      "Real World"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.48201602697372437,
+    "other_prompt_accuracies": {
+      "Product": 0.5452463030815125,
+      "Real World": 0.5457044839859009
+    },
+    "source_wrong_other_teacher_correct_rate": 0.14043527841567993,
+    "source_weight_on_true_class": 0.33333340287208557,
+    "source_weight_on_wrong_classes": 0.3333333134651184,
+    "source_weight_when_source_wrong_other_correct": 0.3333333134651184,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.5243222117424011,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5780314803123474,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Product",
+      "Real World"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.48201602697372437,
+    "other_prompt_accuracies": {
+      "Product": 0.5452463030815125,
+      "Real World": 0.5457044839859009
+    },
+    "source_wrong_other_teacher_correct_rate": 0.14043527841567993,
+    "source_weight_on_true_class": 0.34411031007766724,
+    "source_weight_on_wrong_classes": 0.34853386878967285,
+    "source_weight_when_source_wrong_other_correct": 0.34296905994415283,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.524143636226654,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5706605911254883,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Product",
+      "Real World"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.48201602697372437,
+    "other_prompt_accuracies": {
+      "Product": 0.5452463030815125,
+      "Real World": 0.5457044839859009
+    },
+    "source_wrong_other_teacher_correct_rate": 0.14043527841567993,
+    "source_weight_on_true_class": 0.43434351682662964,
+    "source_weight_on_wrong_classes": 0.4813883602619171,
+    "source_weight_when_source_wrong_other_correct": 0.4211018979549408,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.5231503248214722,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.509565532207489,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Product",
+      "Real World"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.48201602697372437,
+    "other_prompt_accuracies": {
+      "Product": 0.5452463030815125,
+      "Real World": 0.5457044839859009
+    },
+    "source_wrong_other_teacher_correct_rate": 0.14043527841567993,
+    "source_weight_on_true_class": 0.6748777627944946,
+    "source_weight_on_wrong_classes": 0.8244388103485107,
+    "source_weight_when_source_wrong_other_correct": 0.6257596015930176,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.5206273198127747,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.3436167240142822,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Product",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Real World"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.736201822757721,
+    "other_prompt_accuracies": {
+      "Clipart": 0.8405046463012695,
+      "Real World": 0.8384771347045898
+    },
+    "source_wrong_other_teacher_correct_rate": 0.13786889612674713,
+    "source_weight_on_true_class": 0.3386648893356323,
+    "source_weight_on_wrong_classes": 0.3384583294391632,
+    "source_weight_when_source_wrong_other_correct": 0.344226598739624,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8044604659080505,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5936819314956665,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Product",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Real World"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.736201822757721,
+    "other_prompt_accuracies": {
+      "Clipart": 0.8405046463012695,
+      "Real World": 0.8384771347045898
+    },
+    "source_wrong_other_teacher_correct_rate": 0.13786889612674713,
+    "source_weight_on_true_class": 0.3313206136226654,
+    "source_weight_on_wrong_classes": 0.3385865390300751,
+    "source_weight_when_source_wrong_other_correct": 0.3377930521965027,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.805282473564148,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5997112989425659,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Product",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Real World"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.736201822757721,
+    "other_prompt_accuracies": {
+      "Clipart": 0.8405046463012695,
+      "Real World": 0.8384771347045898
+    },
+    "source_wrong_other_teacher_correct_rate": 0.13786889612674713,
+    "source_weight_on_true_class": 0.2671428620815277,
+    "source_weight_on_wrong_classes": 0.3375202715396881,
+    "source_weight_when_source_wrong_other_correct": 0.2821009159088135,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8121605515480042,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6515668034553528,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Product",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Real World"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.736201822757721,
+    "other_prompt_accuracies": {
+      "Clipart": 0.8405046463012695,
+      "Real World": 0.8384771347045898
+    },
+    "source_wrong_other_teacher_correct_rate": 0.13786889612674713,
+    "source_weight_on_true_class": 0.10279794037342072,
+    "source_weight_on_wrong_classes": 0.30996283888816833,
+    "source_weight_when_source_wrong_other_correct": 0.12622152268886566,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8279675841331482,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.79169100522995,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Product"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.787468433380127,
+    "other_prompt_accuracies": {
+      "Clipart": 0.853568971157074,
+      "Product": 0.8517328500747681
+    },
+    "source_wrong_other_teacher_correct_rate": 0.10534771531820297,
+    "source_weight_on_true_class": 0.3387269675731659,
+    "source_weight_on_wrong_classes": 0.3384573459625244,
+    "source_weight_when_source_wrong_other_correct": 0.3366013169288635,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8311147093772888,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.613652765750885,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Product"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.787468433380127,
+    "other_prompt_accuracies": {
+      "Clipart": 0.853568971157074,
+      "Product": 0.8517328500747681
+    },
+    "source_wrong_other_teacher_correct_rate": 0.10534771531820297,
+    "source_weight_on_true_class": 0.34330424666404724,
+    "source_weight_on_wrong_classes": 0.34812799096107483,
+    "source_weight_when_source_wrong_other_correct": 0.3403441607952118,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.831139326095581,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.610464334487915,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Product"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.787468433380127,
+    "other_prompt_accuracies": {
+      "Clipart": 0.853568971157074,
+      "Product": 0.8517328500747681
+    },
+    "source_wrong_other_teacher_correct_rate": 0.10534771531820297,
+    "source_weight_on_true_class": 0.37901052832603455,
+    "source_weight_on_wrong_classes": 0.42218998074531555,
+    "source_weight_when_source_wrong_other_correct": 0.36501383781433105,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8316481113433838,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5891804695129395,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Art",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Product"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.787468433380127,
+    "other_prompt_accuracies": {
+      "Clipart": 0.853568971157074,
+      "Product": 0.8517328500747681
+    },
+    "source_wrong_other_teacher_correct_rate": 0.10534771531820297,
+    "source_weight_on_true_class": 0.4787237346172333,
+    "source_weight_on_wrong_classes": 0.5882517099380493,
+    "source_weight_when_source_wrong_other_correct": 0.42175212502479553,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8340367078781128,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.540985643863678,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Art",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Product",
+      "Real World"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6131026148796082,
+    "other_prompt_accuracies": {
+      "Product": 0.7346518039703369,
+      "Real World": 0.7478368282318115
+    },
+    "source_wrong_other_teacher_correct_rate": 0.19159455597400665,
+    "source_weight_on_true_class": 0.3333333432674408,
+    "source_weight_on_wrong_classes": 0.3333333730697632,
+    "source_weight_when_source_wrong_other_correct": 0.3333333134651184,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.6985304951667786,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5813619494438171,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Art",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Product",
+      "Real World"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6131026148796082,
+    "other_prompt_accuracies": {
+      "Product": 0.7346518039703369,
+      "Real World": 0.7478368282318115
+    },
+    "source_wrong_other_teacher_correct_rate": 0.19159455597400665,
+    "source_weight_on_true_class": 0.3386054039001465,
+    "source_weight_on_wrong_classes": 0.35115429759025574,
+    "source_weight_when_source_wrong_other_correct": 0.3409625291824341,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.6981096267700195,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5760946273803711,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Art",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Product",
+      "Real World"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6131026148796082,
+    "other_prompt_accuracies": {
+      "Product": 0.7346518039703369,
+      "Real World": 0.7478368282318115
+    },
+    "source_wrong_other_teacher_correct_rate": 0.19159455597400665,
+    "source_weight_on_true_class": 0.37513384222984314,
+    "source_weight_on_wrong_classes": 0.5044493675231934,
+    "source_weight_when_source_wrong_other_correct": 0.3962516784667969,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.6952385902404785,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5364350080490112,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Art",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Product",
+      "Real World"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6131026148796082,
+    "other_prompt_accuracies": {
+      "Product": 0.7346518039703369,
+      "Real World": 0.7478368282318115
+    },
+    "source_wrong_other_teacher_correct_rate": 0.19159455597400665,
+    "source_weight_on_true_class": 0.40198013186454773,
+    "source_weight_on_wrong_classes": 0.7958645224571228,
+    "source_weight_when_source_wrong_other_correct": 0.46036094427108765,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.6934889554977417,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.48362234234809875,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Product",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Real World"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.7179545164108276,
+    "other_prompt_accuracies": {
+      "Art": 0.846587061882019,
+      "Real World": 0.8380265831947327
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1628745198249817,
+    "source_weight_on_true_class": 0.3333333432674408,
+    "source_weight_on_wrong_classes": 0.333333283662796,
+    "source_weight_when_source_wrong_other_correct": 0.3333333432674408,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8008560538291931,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6150299906730652,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Product",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Real World"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.7179545164108276,
+    "other_prompt_accuracies": {
+      "Art": 0.846587061882019,
+      "Real World": 0.8380265831947327
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1628745198249817,
+    "source_weight_on_true_class": 0.3255223035812378,
+    "source_weight_on_wrong_classes": 0.34083953499794006,
+    "source_weight_when_source_wrong_other_correct": 0.3254704177379608,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.802029013633728,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6221500039100647,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Product",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Real World"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.7179545164108276,
+    "other_prompt_accuracies": {
+      "Art": 0.846587061882019,
+      "Real World": 0.8380265831947327
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1628745198249817,
+    "source_weight_on_true_class": 0.26003700494766235,
+    "source_weight_on_wrong_classes": 0.40658506751060486,
+    "source_weight_when_source_wrong_other_correct": 0.25572293996810913,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8120101690292358,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6841720938682556,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Product",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Real World"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.7179545164108276,
+    "other_prompt_accuracies": {
+      "Art": 0.846587061882019,
+      "Real World": 0.8380265831947327
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1628745198249817,
+    "source_weight_on_true_class": 0.13632556796073914,
+    "source_weight_on_wrong_classes": 0.6036319732666016,
+    "source_weight_when_source_wrong_other_correct": 0.10590838640928268,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8312407732009888,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.8108187317848206,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Product"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.736056923866272,
+    "other_prompt_accuracies": {
+      "Art": 0.8512738347053528,
+      "Product": 0.8471425175666809
+    },
+    "source_wrong_other_teacher_correct_rate": 0.15698875486850739,
+    "source_weight_on_true_class": 0.3333333432674408,
+    "source_weight_on_wrong_classes": 0.333333283662796,
+    "source_weight_when_source_wrong_other_correct": 0.3333333134651184,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8114911317825317,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6047757863998413,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Product"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.736056923866272,
+    "other_prompt_accuracies": {
+      "Art": 0.8512738347053528,
+      "Product": 0.8471425175666809
+    },
+    "source_wrong_other_teacher_correct_rate": 0.15698875486850739,
+    "source_weight_on_true_class": 0.3269833028316498,
+    "source_weight_on_wrong_classes": 0.34410810470581055,
+    "source_weight_when_source_wrong_other_correct": 0.3287044167518616,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8124122619628906,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6094987392425537,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Product"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.736056923866272,
+    "other_prompt_accuracies": {
+      "Art": 0.8512738347053528,
+      "Product": 0.8471425175666809
+    },
+    "source_wrong_other_teacher_correct_rate": 0.15698875486850739,
+    "source_weight_on_true_class": 0.27033212780952454,
+    "source_weight_on_wrong_classes": 0.42907044291496277,
+    "source_weight_when_source_wrong_other_correct": 0.2834867238998413,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8203096389770508,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6527702212333679,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Clipart",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Product"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.736056923866272,
+    "other_prompt_accuracies": {
+      "Art": 0.8512738347053528,
+      "Product": 0.8471425175666809
+    },
+    "source_wrong_other_teacher_correct_rate": 0.15698875486850739,
+    "source_weight_on_true_class": 0.12971560657024384,
+    "source_weight_on_wrong_classes": 0.6064740419387817,
+    "source_weight_when_source_wrong_other_correct": 0.14800037443637848,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8408619165420532,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.7793354392051697,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Art",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Real World"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6238154172897339,
+    "other_prompt_accuracies": {
+      "Clipart": 0.7416563630104065,
+      "Real World": 0.7264112234115601
+    },
+    "source_wrong_other_teacher_correct_rate": 0.16893284022808075,
+    "source_weight_on_true_class": 0.33614885807037354,
+    "source_weight_on_wrong_classes": 0.33589354157447815,
+    "source_weight_when_source_wrong_other_correct": 0.3357723355293274,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.6972943544387817,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5739837884902954,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Art",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Real World"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6238154172897339,
+    "other_prompt_accuracies": {
+      "Clipart": 0.7416563630104065,
+      "Real World": 0.7264112234115601
+    },
+    "source_wrong_other_teacher_correct_rate": 0.16893284022808075,
+    "source_weight_on_true_class": 0.3237457573413849,
+    "source_weight_on_wrong_classes": 0.325001060962677,
+    "source_weight_when_source_wrong_other_correct": 0.32125961780548096,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.6991263628005981,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5864017605781555,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Art",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Real World"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6238154172897339,
+    "other_prompt_accuracies": {
+      "Clipart": 0.7416563630104065,
+      "Real World": 0.7264112234115601
+    },
+    "source_wrong_other_teacher_correct_rate": 0.16893284022808075,
+    "source_weight_on_true_class": 0.23276233673095703,
+    "source_weight_on_wrong_classes": 0.24469690024852753,
+    "source_weight_when_source_wrong_other_correct": 0.21451245248317719,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.7126092910766602,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.677344799041748,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Art",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Real World"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6238154172897339,
+    "other_prompt_accuracies": {
+      "Clipart": 0.7416563630104065,
+      "Real World": 0.7264112234115601
+    },
+    "source_wrong_other_teacher_correct_rate": 0.16893284022808075,
+    "source_weight_on_true_class": 0.07561804354190826,
+    "source_weight_on_wrong_classes": 0.10748596489429474,
+    "source_weight_when_source_wrong_other_correct": 0.03354925662279129,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.7347033619880676,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.8300041556358337,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Real World"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.44765177369117737,
+    "other_prompt_accuracies": {
+      "Art": 0.5498281717300415,
+      "Real World": 0.5395188927650452
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1702176332473755,
+    "source_weight_on_true_class": 0.33333340287208557,
+    "source_weight_on_wrong_classes": 0.3333333134651184,
+    "source_weight_when_source_wrong_other_correct": 0.3333333730697632,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.5123329758644104,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5742484927177429,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Real World"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.44765177369117737,
+    "other_prompt_accuracies": {
+      "Art": 0.5498281717300415,
+      "Real World": 0.5395188927650452
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1702176332473755,
+    "source_weight_on_true_class": 0.32540252804756165,
+    "source_weight_on_wrong_classes": 0.32553479075431824,
+    "source_weight_when_source_wrong_other_correct": 0.3227168023586273,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.5136791467666626,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5839128494262695,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Real World"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.44765177369117737,
+    "other_prompt_accuracies": {
+      "Art": 0.5498281717300415,
+      "Real World": 0.5395188927650452
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1702176332473755,
+    "source_weight_on_true_class": 0.2692733407020569,
+    "source_weight_on_wrong_classes": 0.2699405252933502,
+    "source_weight_when_source_wrong_other_correct": 0.24794436991214752,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.523501992225647,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6525793075561523,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Real World"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.44765177369117737,
+    "other_prompt_accuracies": {
+      "Art": 0.5498281717300415,
+      "Real World": 0.5395188927650452
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1702176332473755,
+    "source_weight_on_true_class": 0.1815505176782608,
+    "source_weight_on_wrong_classes": 0.18114124238491058,
+    "source_weight_when_source_wrong_other_correct": 0.11865739524364471,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.5442607402801514,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.7770757675170898,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Clipart"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.79366534948349,
+    "other_prompt_accuracies": {
+      "Art": 0.853339433670044,
+      "Clipart": 0.8558641076087952
+    },
+    "source_wrong_other_teacher_correct_rate": 0.09869176149368286,
+    "source_weight_on_true_class": 0.3362787663936615,
+    "source_weight_on_wrong_classes": 0.3358914256095886,
+    "source_weight_when_source_wrong_other_correct": 0.33449608087539673,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8342131972312927,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6120154857635498,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Clipart"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.79366534948349,
+    "other_prompt_accuracies": {
+      "Art": 0.853339433670044,
+      "Clipart": 0.8558641076087952
+    },
+    "source_wrong_other_teacher_correct_rate": 0.09869176149368286,
+    "source_weight_on_true_class": 0.3369116187095642,
+    "source_weight_on_wrong_classes": 0.33121633529663086,
+    "source_weight_when_source_wrong_other_correct": 0.32985252141952515,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8347403407096863,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6163461208343506,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Clipart"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.79366534948349,
+    "other_prompt_accuracies": {
+      "Art": 0.853339433670044,
+      "Clipart": 0.8558641076087952
+    },
+    "source_wrong_other_teacher_correct_rate": 0.09869176149368286,
+    "source_weight_on_true_class": 0.3486769199371338,
+    "source_weight_on_wrong_classes": 0.30394279956817627,
+    "source_weight_when_source_wrong_other_correct": 0.2987298369407654,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8388010859489441,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6458515524864197,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Product",
+    "target": "Real World",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Clipart"
+    ],
+    "samples": 4357,
+    "source_prompt_accuracy": 0.79366534948349,
+    "other_prompt_accuracies": {
+      "Art": 0.853339433670044,
+      "Clipart": 0.8558641076087952
+    },
+    "source_wrong_other_teacher_correct_rate": 0.09869176149368286,
+    "source_weight_on_true_class": 0.3872872591018677,
+    "source_weight_on_wrong_classes": 0.29814794659614563,
+    "source_weight_when_source_wrong_other_correct": 0.23978394269943237,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8482775688171387,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.7042917013168335,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Art",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Product"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6942727565765381,
+    "other_prompt_accuracies": {
+      "Clipart": 0.7482488751411438,
+      "Product": 0.7334157228469849
+    },
+    "source_wrong_other_teacher_correct_rate": 0.11042439192533493,
+    "source_weight_on_true_class": 0.34088724851608276,
+    "source_weight_on_wrong_classes": 0.3410278260707855,
+    "source_weight_when_source_wrong_other_correct": 0.3439054489135742,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.7249690890312195,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5466417074203491,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Art",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Product"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6942727565765381,
+    "other_prompt_accuracies": {
+      "Clipart": 0.7482488751411438,
+      "Product": 0.7334157228469849
+    },
+    "source_wrong_other_teacher_correct_rate": 0.11042439192533493,
+    "source_weight_on_true_class": 0.35327640175819397,
+    "source_weight_on_wrong_classes": 0.34917718172073364,
+    "source_weight_when_source_wrong_other_correct": 0.35343119502067566,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.7248517870903015,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5386103391647339,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Art",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Product"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6942727565765381,
+    "other_prompt_accuracies": {
+      "Clipart": 0.7482488751411438,
+      "Product": 0.7334157228469849
+    },
+    "source_wrong_other_teacher_correct_rate": 0.11042439192533493,
+    "source_weight_on_true_class": 0.44901877641677856,
+    "source_weight_on_wrong_classes": 0.4012433886528015,
+    "source_weight_when_source_wrong_other_correct": 0.4173564910888672,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.7247658967971802,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.4847853481769562,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Art",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Clipart",
+      "Product"
+    ],
+    "samples": 2427,
+    "source_prompt_accuracy": 0.6942727565765381,
+    "other_prompt_accuracies": {
+      "Clipart": 0.7482488751411438,
+      "Product": 0.7334157228469849
+    },
+    "source_wrong_other_teacher_correct_rate": 0.11042439192533493,
+    "source_weight_on_true_class": 0.6637458801269531,
+    "source_weight_on_wrong_classes": 0.4767499566078186,
+    "source_weight_when_source_wrong_other_correct": 0.5297620892524719,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.7249659895896912,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.3778291940689087,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Product"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.49713632464408875,
+    "other_prompt_accuracies": {
+      "Art": 0.5500572919845581,
+      "Product": 0.5408934950828552
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1301259994506836,
+    "source_weight_on_true_class": 0.33333340287208557,
+    "source_weight_on_wrong_classes": 0.3333333134651184,
+    "source_weight_when_source_wrong_other_correct": 0.3333333730697632,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.5293623805046082,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5504694581031799,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Product"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.49713632464408875,
+    "other_prompt_accuracies": {
+      "Art": 0.5500572919845581,
+      "Product": 0.5408934950828552
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1301259994506836,
+    "source_weight_on_true_class": 0.33972257375717163,
+    "source_weight_on_wrong_classes": 0.3389396071434021,
+    "source_weight_when_source_wrong_other_correct": 0.3388018012046814,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.5294843316078186,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5458202958106995,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Product"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.49713632464408875,
+    "other_prompt_accuracies": {
+      "Art": 0.5500572919845581,
+      "Product": 0.5408934950828552
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1301259994506836,
+    "source_weight_on_true_class": 0.3813595771789551,
+    "source_weight_on_wrong_classes": 0.3717494308948517,
+    "source_weight_when_source_wrong_other_correct": 0.37047863006591797,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.5318353772163391,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5205050706863403,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Clipart",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Product"
+    ],
+    "samples": 4365,
+    "source_prompt_accuracy": 0.49713632464408875,
+    "other_prompt_accuracies": {
+      "Art": 0.5500572919845581,
+      "Product": 0.5408934950828552
+    },
+    "source_wrong_other_teacher_correct_rate": 0.1301259994506836,
+    "source_weight_on_true_class": 0.4079304039478302,
+    "source_weight_on_wrong_classes": 0.363635778427124,
+    "source_weight_when_source_wrong_other_correct": 0.3599724769592285,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.5433156490325928,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5342265367507935,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Product",
+    "seed": 42,
+    "beta": 0.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Clipart"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.839152991771698,
+    "other_prompt_accuracies": {
+      "Art": 0.8612300157546997,
+      "Clipart": 0.8578508496284485
+    },
+    "source_wrong_other_teacher_correct_rate": 0.06465420126914978,
+    "source_weight_on_true_class": 0.3411053717136383,
+    "source_weight_on_wrong_classes": 0.34102436900138855,
+    "source_weight_when_source_wrong_other_correct": 0.3501741588115692,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8521813750267029,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.6068525314331055,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Product",
+    "seed": 42,
+    "beta": 0.1,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Clipart"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.839152991771698,
+    "other_prompt_accuracies": {
+      "Art": 0.8612300157546997,
+      "Clipart": 0.8578508496284485
+    },
+    "source_wrong_other_teacher_correct_rate": 0.06465420126914978,
+    "source_weight_on_true_class": 0.35439637303352356,
+    "source_weight_on_wrong_classes": 0.34637290239334106,
+    "source_weight_when_source_wrong_other_correct": 0.36049407720565796,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8521763682365417,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.597469687461853,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Product",
+    "seed": 42,
+    "beta": 1.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Clipart"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.839152991771698,
+    "other_prompt_accuracies": {
+      "Art": 0.8612300157546997,
+      "Clipart": 0.8578508496284485
+    },
+    "source_wrong_other_teacher_correct_rate": 0.06465420126914978,
+    "source_weight_on_true_class": 0.4761740565299988,
+    "source_weight_on_wrong_classes": 0.39373281598091125,
+    "source_weight_when_source_wrong_other_correct": 0.4501095414161682,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8522619605064392,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.5149697661399841,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  },
+  {
+    "source": "Real World",
+    "target": "Product",
+    "seed": 42,
+    "beta": 10.0,
+    "teacher_set": [
+      "Source",
+      "Art",
+      "Clipart"
+    ],
+    "samples": 4439,
+    "source_prompt_accuracy": 0.839152991771698,
+    "other_prompt_accuracies": {
+      "Art": 0.8612300157546997,
+      "Clipart": 0.8578508496284485
+    },
+    "source_wrong_other_teacher_correct_rate": 0.06465420126914978,
+    "source_weight_on_true_class": 0.8319076895713806,
+    "source_weight_on_wrong_classes": 0.5515711307525635,
+    "source_weight_when_source_wrong_other_correct": 0.7238714098930359,
+    "weighted_correct_teacher_vote_mass_at_true_class": 0.8511090874671936,
+    "correct_vote_mass_when_source_wrong_other_correct": 0.24990366399288177,
+    "scope": "offline true-class diagnostic; no label feedback; vote ability is not a calibrated probability"
+  }
+]

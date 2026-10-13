@@ -1,0 +1,16 @@
+[
+  {
+    "question": "E2H_uniform",
+    "method": "R2",
+    "control": "R1",
+    "seed42_macro_gain_pp": 1.2868367742821505,
+    "positive_sources": 4
+  },
+  {
+    "question": "joint_uniform",
+    "method": "R4",
+    "control": "R0M",
+    "seed42_macro_gain_pp": 1.6483354245224433,
+    "positive_sources": 4
+  }
+]

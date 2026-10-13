@@ -1,0 +1,48 @@
+{
+  "Art": {
+    "order": [
+      "Real World",
+      "Product",
+      "Clipart"
+    ],
+    "statistics": {
+      "Clipart": {
+        "mean_entropy": 1.4229860305786133,
+        "acceptance_rate": 0.4135166108608246,
+        "mean_max_probability": 0.6059649586677551,
+        "samples": 4365,
+        "cache_fingerprint": "4c365baacf9dd5988de2e6d4145fcf7d008e3b4cc8ab4f448e0151c59eea1b1e"
+      },
+      "Product": {
+        "mean_entropy": 0.5420443415641785,
+        "acceptance_rate": 0.767289936542511,
+        "mean_max_probability": 0.837412416934967,
+        "samples": 4439,
+        "cache_fingerprint": "3117628f140d1e881b0e67f1379daac6ada4b6a5ecf68af8580abca0bf4d67c0"
+      },
+      "Real World": {
+        "mean_entropy": 0.4912700057029724,
+        "acceptance_rate": 0.7929767966270447,
+        "mean_max_probability": 0.8521997928619385,
+        "samples": 4357,
+        "cache_fingerprint": "9fa3e5d2119099240b388569751703d480e817f90b38c759de484d0a7b297394"
+      }
+    },
+    "rule": "entropy ascending; ties: acceptance/max-confidence descending, name",
+    "uses_target_labels": false,
+    "confidence_threshold": 0.7,
+    "source": "Art",
+    "ordering_teacher_sha256": "4a16ce6bf7d8a48a6d63650ed2a7fdc7051fb365507a2e6f77e008f261507bcb",
+    "checkpoint_sha256": "afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762",
+    "manual_order": null,
+    "cache_fingerprints": {
+      "Clipart": "4c365baacf9dd5988de2e6d4145fcf7d008e3b4cc8ab4f448e0151c59eea1b1e",
+      "Product": "3117628f140d1e881b0e67f1379daac6ada4b6a5ecf68af8580abca0bf4d67c0",
+      "Real World": "9fa3e5d2119099240b388569751703d480e817f90b38c759de484d0a7b297394"
+    },
+    "ordering_teacher_checkpoint": "/home/tangxunchi/workspace/spl/runs/source_prompt_only/Art/seed_42/last.pt",
+    "ordering_teacher_seed": 42,
+    "ordering_teacher_source_updates": 1000,
+    "ordering_only_reuses_existing_source_model": true
+  }
+}

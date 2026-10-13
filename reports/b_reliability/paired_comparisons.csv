@@ -1,0 +1,36 @@
+question,source,method,control,delta_pp,std_pp,paired_seeds
+E2H,Art,R1,R0M,0.2591004978656173,,1
+E2H_uniform,Art,R2,R1,1.324930600122613,,1
+E2H_bank,Art,R3,R2,-0.005219452248255152,,1
+joint_uniform,Art,R4,R0M,1.9479485753677892,,1
+joint_bank,Art,R5,R4,-0.3118504982786874,,1
+refresh,Art,R6,R5,-0.06076619503093639,,1
+matched_control,Art,R0M,R0,0.0,,1
+E2H,Clipart,R1,R0M,0.374824230254589,,1
+E2H_uniform,Clipart,R2,R1,1.6666384539800845,,1
+E2H_bank,Clipart,R3,R2,-1.1897211127070904,,1
+joint_uniform,Clipart,R4,R0M,2.350012331482489,,1
+joint_bank,Clipart,R5,R4,-0.6463468689009488,,1
+refresh,Clipart,R6,R5,-0.5575399736326858,,1
+matched_control,Clipart,R0M,R0,0.0,,1
+E2H,Product,R1,R0M,0.24305324657579774,,1
+E2H_uniform,Product,R2,R1,1.59084676918836,,1
+E2H_bank,Product,R3,R2,-0.26117971220108416,,1
+joint_uniform,Product,R4,R0M,1.679898298601472,,1
+joint_bank,Product,R5,R4,-0.36947348652356027,,1
+refresh,Product,R6,R5,-0.06910820555201269,,1
+matched_control,Product,R0M,R0,0.0,,1
+E2H,Real World,R1,R0M,-0.0024328010538567924,,1
+E2H_uniform,Real World,R2,R1,0.5649312738375158,,1
+E2H_bank,Real World,R3,R2,0.07186241457901588,,1
+joint_uniform,Real World,R4,R0M,0.6154824926380087,,1
+joint_bank,Real World,R5,R4,-0.18739980590676453,,1
+refresh,Real World,R6,R5,0.06404197177700155,,1
+matched_control,Real World,R0M,R0,0.0,,1
+E2H,All,R1,R0M,0.21863629341054036,,1
+E2H_uniform,All,R2,R1,1.2868367742821505,,1
+E2H_bank,All,R3,R2,-0.34606446564436055,,1
+joint_uniform,All,R4,R0M,1.6483354245224433,,1
+joint_bank,All,R5,R4,-0.37876766490248315,,1
+refresh,All,R6,R5,-0.15584310060965834,,1
+matched_control,All,R0M,R0,0.0,,1

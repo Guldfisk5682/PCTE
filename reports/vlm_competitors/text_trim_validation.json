@@ -1,0 +1,8 @@
+{
+  "device": "cpu",
+  "feature_max_abs_error": 2.1606683731079102e-07,
+  "context_gradient_max_abs_error": 2.193450927734375e-05,
+  "context_gradient_relative_l2_error": 6.233698513824493e-06,
+  "original_tokens": 77,
+  "trimmed_tokens": 17
+}

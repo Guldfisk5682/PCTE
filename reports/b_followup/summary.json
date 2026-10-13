@@ -1,0 +1,388 @@
+{
+  "macro": [
+    {
+      "method": "R0M",
+      "seed": 41,
+      "macro_accuracy": 72.81774719457134
+    },
+    {
+      "method": "R0M",
+      "seed": 42,
+      "macro_accuracy": 72.99871209331097
+    },
+    {
+      "method": "R0M",
+      "seed": 43,
+      "macro_accuracy": 72.69353794999655
+    },
+    {
+      "method": "R2",
+      "seed": 41,
+      "macro_accuracy": 74.44035282141746
+    },
+    {
+      "method": "R2",
+      "seed": 42,
+      "macro_accuracy": 74.50418516100366
+    },
+    {
+      "method": "R2",
+      "seed": 43,
+      "macro_accuracy": 74.4513403078725
+    },
+    {
+      "method": "R4",
+      "seed": 41,
+      "macro_accuracy": 74.56965836684977
+    },
+    {
+      "method": "R4",
+      "seed": 42,
+      "macro_accuracy": 74.64704751783341
+    },
+    {
+      "method": "R4",
+      "seed": 43,
+      "macro_accuracy": 74.65052717420645
+    },
+    {
+      "method": "R5",
+      "seed": 42,
+      "macro_accuracy": 74.26827985293093
+    },
+    {
+      "method": "FUniform",
+      "seed": 42,
+      "macro_accuracy": 74.64704751783341
+    },
+    {
+      "method": "FBeta0",
+      "seed": 42,
+      "macro_accuracy": 74.62235694806117
+    },
+    {
+      "method": "FBeta0p1",
+      "seed": 42,
+      "macro_accuracy": 74.65566882755752
+    },
+    {
+      "method": "FBeta1",
+      "seed": 42,
+      "macro_accuracy": 74.68836577560657
+    },
+    {
+      "method": "FBeta10",
+      "seed": 42,
+      "macro_accuracy": 74.35880701800343
+    },
+    {
+      "method": "FStartRef",
+      "seed": 42,
+      "macro_accuracy": 74.65333985123218
+    },
+    {
+      "method": "FStartInit",
+      "seed": 42,
+      "macro_accuracy": 72.5806468037691
+    }
+  ],
+  "paired": [
+    {
+      "method": "R2",
+      "control": "R0M",
+      "seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_gain_pp": 1.6286270174715867,
+      "std_gain_pp": 0.12627236645400533,
+      "per_seed_gain_pp": {
+        "41": 1.6226056268461235,
+        "42": 1.5054730676926908,
+        "43": 1.7578023578759456
+      }
+    },
+    {
+      "method": "R4",
+      "control": "R0M",
+      "seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_gain_pp": 1.7857452736702537,
+      "std_gain_pp": 0.1570839006013004,
+      "per_seed_gain_pp": {
+        "41": 1.751911172278426,
+        "42": 1.6483354245224433,
+        "43": 1.9569892242098916
+      }
+    },
+    {
+      "method": "FUniform",
+      "control": "R4",
+      "seeds": [
+        42
+      ],
+      "mean_gain_pp": 0.0,
+      "std_gain_pp": null,
+      "per_seed_gain_pp": {
+        "42": 0.0
+      }
+    },
+    {
+      "method": "FBeta0",
+      "control": "R4",
+      "seeds": [
+        42
+      ],
+      "mean_gain_pp": -0.024690569772246818,
+      "std_gain_pp": null,
+      "per_seed_gain_pp": {
+        "42": -0.024690569772246818
+      }
+    },
+    {
+      "method": "FBeta0p1",
+      "control": "R4",
+      "seeds": [
+        42
+      ],
+      "mean_gain_pp": 0.008621309724105686,
+      "std_gain_pp": null,
+      "per_seed_gain_pp": {
+        "42": 0.008621309724105686
+      }
+    },
+    {
+      "method": "FBeta1",
+      "control": "R4",
+      "seeds": [
+        42
+      ],
+      "mean_gain_pp": 0.04131825777315612,
+      "std_gain_pp": null,
+      "per_seed_gain_pp": {
+        "42": 0.04131825777315612
+      }
+    },
+    {
+      "method": "FBeta10",
+      "control": "R4",
+      "seeds": [
+        42
+      ],
+      "mean_gain_pp": -0.2882404998299819,
+      "std_gain_pp": null,
+      "per_seed_gain_pp": {
+        "42": -0.2882404998299819
+      }
+    },
+    {
+      "method": "FStartRef",
+      "control": "R4",
+      "seeds": [
+        42
+      ],
+      "mean_gain_pp": 0.0062923333987612295,
+      "std_gain_pp": null,
+      "per_seed_gain_pp": {
+        "42": 0.0062923333987612295
+      }
+    },
+    {
+      "method": "FStartInit",
+      "control": "R4",
+      "seeds": [
+        42
+      ],
+      "mean_gain_pp": -2.066400714064315,
+      "std_gain_pp": null,
+      "per_seed_gain_pp": {
+        "42": -2.066400714064315
+      }
+    }
+  ],
+  "bank_weights": [
+    {
+      "method": "FUniform",
+      "target_group": "all",
+      "final_mean_weight_entropy": 1.0986119508743286,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.3333294093608856,
+      "active_training_source_weight": 0.416666641831398,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 96
+    },
+    {
+      "method": "FUniform",
+      "target_group": "Clipart",
+      "final_mean_weight_entropy": 1.0986119508743286,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.3333265781402588,
+      "active_training_source_weight": 0.3888888657093048,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 27
+    },
+    {
+      "method": "FBeta0",
+      "target_group": "all",
+      "final_mean_weight_entropy": 1.0923740863800049,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.33589492986599606,
+      "active_training_source_weight": 0.4176281802356243,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 96
+    },
+    {
+      "method": "FBeta0",
+      "target_group": "Clipart",
+      "final_mean_weight_entropy": 1.0986119508743286,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.3333265781402588,
+      "active_training_source_weight": 0.3888888657093048,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 27
+    },
+    {
+      "method": "FBeta0p1",
+      "target_group": "all",
+      "final_mean_weight_entropy": 1.0914197464783986,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.3405760278304418,
+      "active_training_source_weight": 0.423883023361365,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 96
+    },
+    {
+      "method": "FBeta0p1",
+      "target_group": "Clipart",
+      "final_mean_weight_entropy": 1.0976481437683105,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.33765015999476117,
+      "active_training_source_weight": 0.3938608533806271,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 27
+    },
+    {
+      "method": "FBeta1",
+      "target_group": "all",
+      "final_mean_weight_entropy": 1.021937534213066,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.3799997183183829,
+      "active_training_source_weight": 0.4736958897362153,
+      "active_training_one_hot_rate": 0.00010683760350123823,
+      "active_training_records": 96
+    },
+    {
+      "method": "FBeta1",
+      "target_group": "Clipart",
+      "final_mean_weight_entropy": 1.0295041402180989,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.3741638163725535,
+      "active_training_source_weight": 0.43537117044130963,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 27
+    },
+    {
+      "method": "FBeta10",
+      "target_group": "all",
+      "final_mean_weight_entropy": 0.33617667978008586,
+      "final_one_hot_rate": 0.2806824818253517,
+      "final_source_weight": 0.47402990236878395,
+      "active_training_source_weight": 0.5672168957535177,
+      "active_training_one_hot_rate": 0.3916826786783834,
+      "active_training_records": 96
+    },
+    {
+      "method": "FBeta10",
+      "target_group": "Clipart",
+      "final_mean_weight_entropy": 0.33391406138737995,
+      "final_one_hot_rate": 0.279550035794576,
+      "final_source_weight": 0.4558677872021993,
+      "active_training_source_weight": 0.5302761500632321,
+      "active_training_one_hot_rate": 0.33264956154205183,
+      "active_training_records": 27
+    },
+    {
+      "method": "FStartRef",
+      "target_group": "all",
+      "final_mean_weight_entropy": 1.0986119508743286,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.3333294093608856,
+      "active_training_source_weight": 0.3333333134651184,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 132
+    },
+    {
+      "method": "FStartRef",
+      "target_group": "Clipart",
+      "final_mean_weight_entropy": 1.0986119508743286,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.3333265781402588,
+      "active_training_source_weight": 0.3333333134651184,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 33
+    },
+    {
+      "method": "FStartInit",
+      "target_group": "all",
+      "final_mean_weight_entropy": 1.0986119508743286,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.3333294093608856,
+      "active_training_source_weight": 0.3333333134651184,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 132
+    },
+    {
+      "method": "FStartInit",
+      "target_group": "Clipart",
+      "final_mean_weight_entropy": 1.0986119508743286,
+      "final_one_hot_rate": 0.0,
+      "final_source_weight": 0.3333265781402588,
+      "active_training_source_weight": 0.3333333134651184,
+      "active_training_one_hot_rate": 0.0,
+      "active_training_records": 33
+    }
+  ],
+  "candidates": [
+    {
+      "method": "FBeta0",
+      "gain_pp": -0.024690569772246818,
+      "positive_sources": 1,
+      "qualifies_multiseed": false
+    },
+    {
+      "method": "FBeta0p1",
+      "gain_pp": 0.008621309724105686,
+      "positive_sources": 2,
+      "qualifies_multiseed": false
+    },
+    {
+      "method": "FBeta1",
+      "gain_pp": 0.04131825777315612,
+      "positive_sources": 4,
+      "qualifies_multiseed": false
+    },
+    {
+      "method": "FBeta10",
+      "gain_pp": -0.2882404998299819,
+      "positive_sources": 1,
+      "qualifies_multiseed": false
+    },
+    {
+      "method": "FStartRef",
+      "gain_pp": 0.0062923333987612295,
+      "positive_sources": 2,
+      "qualifies_multiseed": false
+    },
+    {
+      "method": "FStartInit",
+      "gain_pp": -2.066400714064315,
+      "positive_sources": 0,
+      "qualifies_multiseed": false
+    }
+  ],
+  "completed_new_runs": 28
+}

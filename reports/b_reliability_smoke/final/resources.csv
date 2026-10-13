@@ -1,0 +1,9 @@
+variant,source,seed,global_steps,source_updates,target_updates,optimizer_step_calls,target_sample_exposures,source_sample_exposures,elapsed_seconds,peak_memory_bytes
+R0M,Art,42,24,24,"{""Clipart"": 24, ""Product"": 24, ""Real World"": 24}",96,"{""Clipart"": 720, ""Product"": 720, ""Real World"": 720}",720,7.912177096121013,2427559936
+R1,Art,42,72,24,"{""Clipart"": 24, ""Product"": 24, ""Real World"": 24}",96,"{""Clipart"": 720, ""Product"": 720, ""Real World"": 720}",720,14.962976049166173,2424647680
+R2,Art,42,72,24,"{""Clipart"": 24, ""Product"": 24, ""Real World"": 24}",96,"{""Clipart"": 720, ""Product"": 720, ""Real World"": 720}",720,19.75844339793548,2425195520
+R3,Art,42,72,24,"{""Clipart"": 24, ""Product"": 24, ""Real World"": 24}",96,"{""Clipart"": 720, ""Product"": 720, ""Real World"": 720}",720,24.111899500945583,2425219584
+R4,Art,42,24,24,"{""Clipart"": 24, ""Product"": 24, ""Real World"": 24}",96,"{""Clipart"": 720, ""Product"": 720, ""Real World"": 720}",720,15.246957728872076,2428374016
+R5,Art,42,24,24,"{""Clipart"": 24, ""Product"": 24, ""Real World"": 24}",96,"{""Clipart"": 720, ""Product"": 720, ""Real World"": 720}",720,17.355960003100336,2428398080
+R6,Art,42,24,24,"{""Clipart"": 24, ""Product"": 24, ""Real World"": 24}",96,"{""Clipart"": 720, ""Product"": 720, ""Real World"": 720}",720,26.285824665101245,2428398080
+R0,Art,42,24,24,"{""Clipart"": 24, ""Product"": 24, ""Real World"": 24}",24,"{""Clipart"": 720, ""Product"": 720, ""Real World"": 720}",720,4.998113604960963,2426987520

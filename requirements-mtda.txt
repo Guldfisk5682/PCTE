@@ -1,0 +1,12 @@
+# Install into an existing compatible PyTorch environment; validated versions in docs.
+torch>=2.0
+torchvision>=0.15
+numpy
+Pillow
+ftfy
+regex
+tqdm
+packaging
+pytest>=7
+# Optional standalone scientific plots (not used by training).
+matplotlib>=3.7

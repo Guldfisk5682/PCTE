@@ -1,0 +1,26 @@
+[
+  {
+    "competitor": "DAPrompt",
+    "R4_gain_pp": 1.3182854190007305,
+    "R4_wins_sources": 4,
+    "R4_clipart_gain_pp": 0.8400152730049655
+  },
+  {
+    "competitor": "DAPrompt-CodeTau",
+    "R4_gain_pp": 1.3887897168649346,
+    "R4_wins_sources": 4,
+    "R4_clipart_gain_pp": 1.0920198549064537
+  },
+  {
+    "competitor": "ADCLIP-Code",
+    "R4_gain_pp": 1.897309618461918,
+    "R4_wins_sources": 4,
+    "R4_clipart_gain_pp": 1.3669339442535318
+  },
+  {
+    "competitor": "ADCLIP-Registered",
+    "R4_gain_pp": 2.9420950360940594,
+    "R4_wins_sources": 4,
+    "R4_clipart_gain_pp": 2.886597938144334
+  }
+]

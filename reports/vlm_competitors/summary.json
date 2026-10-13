@@ -1,0 +1,628 @@
+{
+  "seed": 42,
+  "backbone": "RN50",
+  "completed_competitor_runs": 16,
+  "expected_competitor_runs": 16,
+  "methods": [
+    {
+      "method": "CLIP Zero-shot",
+      "macro_accuracy": 72.14024287722964,
+      "clipart_target_accuracy": 51.70675830469646,
+      "gain_vs_clip_zero_shot_pp": 0.0,
+      "gain_vs_B_pp": -0.8584692160813319,
+      "gain_vs_R4_pp": -2.506804640603775
+    },
+    {
+      "method": "CLIP Zero-shot (DAPL template)",
+      "macro_accuracy": 71.964521899494,
+      "clipart_target_accuracy": 51.844215349369996,
+      "gain_vs_clip_zero_shot_pp": -0.17572097773563655,
+      "gain_vs_B_pp": -1.0341901938169684,
+      "gain_vs_R4_pp": -2.6825256183394117
+    },
+    {
+      "method": "Source Prompt Only",
+      "macro_accuracy": 66.40412438060008,
+      "clipart_target_accuracy": 47.560137457044675,
+      "gain_vs_clip_zero_shot_pp": -5.736118496629558,
+      "gain_vs_B_pp": -6.59458771271089,
+      "gain_vs_R4_pp": -8.242923137233333
+    },
+    {
+      "method": "B / R0M",
+      "macro_accuracy": 72.99871209331097,
+      "clipart_target_accuracy": 52.730049637266134,
+      "gain_vs_clip_zero_shot_pp": 0.8584692160813319,
+      "gain_vs_B_pp": 0.0,
+      "gain_vs_R4_pp": -1.6483354245224433
+    },
+    {
+      "method": "R2",
+      "macro_accuracy": 74.50418516100366,
+      "clipart_target_accuracy": 54.6086292478045,
+      "gain_vs_clip_zero_shot_pp": 2.3639422837740227,
+      "gain_vs_B_pp": 1.5054730676926908,
+      "gain_vs_R4_pp": -0.14286235682975246
+    },
+    {
+      "method": "R4",
+      "macro_accuracy": 74.64704751783341,
+      "clipart_target_accuracy": 54.53990072546774,
+      "gain_vs_clip_zero_shot_pp": 2.506804640603775,
+      "gain_vs_B_pp": 1.6483354245224433,
+      "gain_vs_R4_pp": 0.0
+    },
+    {
+      "method": "DAPrompt",
+      "macro_accuracy": 73.32876209883268,
+      "clipart_target_accuracy": 53.69988545246277,
+      "gain_vs_clip_zero_shot_pp": 1.1885192216030447,
+      "gain_vs_B_pp": 0.3300500055217128,
+      "gain_vs_R4_pp": -1.3182854190007305
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "macro_accuracy": 73.25825780096848,
+      "clipart_target_accuracy": 53.447880870561285,
+      "gain_vs_clip_zero_shot_pp": 1.1180149237388406,
+      "gain_vs_B_pp": 0.25954570765750873,
+      "gain_vs_R4_pp": -1.3887897168649346
+    },
+    {
+      "method": "ADCLIP-Code",
+      "macro_accuracy": 72.7497378993715,
+      "clipart_target_accuracy": 53.17296678121421,
+      "gain_vs_clip_zero_shot_pp": 0.6094950221418571,
+      "gain_vs_B_pp": -0.24897419393947473,
+      "gain_vs_R4_pp": -1.897309618461918
+    },
+    {
+      "method": "ADCLIP-Registered",
+      "macro_accuracy": 71.70495248173935,
+      "clipart_target_accuracy": 51.653302787323405,
+      "gain_vs_clip_zero_shot_pp": -0.43529039549028425,
+      "gain_vs_B_pp": -1.2937596115716161,
+      "gain_vs_R4_pp": -2.9420950360940594
+    }
+  ],
+  "source_summary": [
+    {
+      "method": "CLIP Zero-shot",
+      "source": "Art",
+      "macro_accuracy": 72.26170551464706
+    },
+    {
+      "method": "CLIP Zero-shot",
+      "source": "Clipart",
+      "macro_accuracy": 78.95140440140736
+    },
+    {
+      "method": "CLIP Zero-shot",
+      "source": "Product",
+      "macro_accuracy": 68.73335980536828
+    },
+    {
+      "method": "CLIP Zero-shot",
+      "source": "Real World",
+      "macro_accuracy": 68.61450178749584
+    },
+    {
+      "method": "CLIP Zero-shot (DAPL template)",
+      "source": "Art",
+      "macro_accuracy": 72.01367650052023
+    },
+    {
+      "method": "CLIP Zero-shot (DAPL template)",
+      "source": "Clipart",
+      "macro_accuracy": 78.67129074953534
+    },
+    {
+      "method": "CLIP Zero-shot (DAPL template)",
+      "source": "Product",
+      "macro_accuracy": 68.73935952897916
+    },
+    {
+      "method": "CLIP Zero-shot (DAPL template)",
+      "source": "Real World",
+      "macro_accuracy": 68.43376081894128
+    },
+    {
+      "method": "Source Prompt Only",
+      "source": "Art",
+      "macro_accuracy": 66.85621085021192
+    },
+    {
+      "method": "Source Prompt Only",
+      "source": "Clipart",
+      "macro_accuracy": 68.90380033172522
+    },
+    {
+      "method": "Source Prompt Only",
+      "source": "Product",
+      "macro_accuracy": 62.17108505118537
+    },
+    {
+      "method": "Source Prompt Only",
+      "source": "Real World",
+      "macro_accuracy": 67.68540128927782
+    },
+    {
+      "method": "B / R0M",
+      "source": "Art",
+      "macro_accuracy": 72.55932676313928
+    },
+    {
+      "method": "B / R0M",
+      "source": "Clipart",
+      "macro_accuracy": 78.90001683384887
+    },
+    {
+      "method": "B / R0M",
+      "source": "Product",
+      "macro_accuracy": 69.18808549117969
+    },
+    {
+      "method": "B / R0M",
+      "source": "Real World",
+      "macro_accuracy": 71.34741928507607
+    },
+    {
+      "method": "R2",
+      "source": "Art",
+      "macro_accuracy": 74.14335786112751
+    },
+    {
+      "method": "R2",
+      "source": "Clipart",
+      "macro_accuracy": 80.94147951808354
+    },
+    {
+      "method": "R2",
+      "source": "Product",
+      "macro_accuracy": 71.02198550694385
+    },
+    {
+      "method": "R2",
+      "source": "Real World",
+      "macro_accuracy": 71.90991775785973
+    },
+    {
+      "method": "R4",
+      "source": "Art",
+      "macro_accuracy": 74.50727533850707
+    },
+    {
+      "method": "R4",
+      "source": "Clipart",
+      "macro_accuracy": 81.25002916533136
+    },
+    {
+      "method": "R4",
+      "source": "Product",
+      "macro_accuracy": 70.86798378978116
+    },
+    {
+      "method": "R4",
+      "source": "Real World",
+      "macro_accuracy": 71.96290177771408
+    },
+    {
+      "method": "DAPrompt",
+      "source": "Art",
+      "macro_accuracy": 73.24030510615864
+    },
+    {
+      "method": "DAPrompt",
+      "source": "Clipart",
+      "macro_accuracy": 79.90047286868986
+    },
+    {
+      "method": "DAPrompt",
+      "source": "Product",
+      "macro_accuracy": 70.31590243302915
+    },
+    {
+      "method": "DAPrompt",
+      "source": "Real World",
+      "macro_accuracy": 69.85836798745308
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Art",
+      "macro_accuracy": 73.2158528230715
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Clipart",
+      "macro_accuracy": 79.89492018805201
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Product",
+      "macro_accuracy": 69.86045357214662
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Real World",
+      "macro_accuracy": 70.0618046206038
+    },
+    {
+      "method": "ADCLIP-Code",
+      "source": "Art",
+      "macro_accuracy": 72.89856761216714
+    },
+    {
+      "method": "ADCLIP-Code",
+      "source": "Clipart",
+      "macro_accuracy": 77.74009342626528
+    },
+    {
+      "method": "ADCLIP-Code",
+      "source": "Product",
+      "macro_accuracy": 69.73754965910959
+    },
+    {
+      "method": "ADCLIP-Code",
+      "source": "Real World",
+      "macro_accuracy": 70.62274089994396
+    },
+    {
+      "method": "ADCLIP-Registered",
+      "source": "Art",
+      "macro_accuracy": 70.67179384332655
+    },
+    {
+      "method": "ADCLIP-Registered",
+      "source": "Clipart",
+      "macro_accuracy": 77.37501550838597
+    },
+    {
+      "method": "ADCLIP-Registered",
+      "source": "Product",
+      "macro_accuracy": 68.58336517038254
+    },
+    {
+      "method": "ADCLIP-Registered",
+      "source": "Real World",
+      "macro_accuracy": 70.18963540486234
+    }
+  ],
+  "resources": [
+    {
+      "method": "DAPrompt",
+      "source": "Art",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 30000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 203.36945869890042,
+      "peak_memory_gib": 7.413117408752441,
+      "learnable_parameters": 40960,
+      "optimizer": "SGD",
+      "learning_rate": 0.003,
+      "threshold": 0.6,
+      "upstream_sha": "f24b0c16c06b585104ba97615f89cd5df4def872",
+      "implementation_sha256": "3eac5fb698175fd7d24b380efe2f2577c31977ff218b8298a35f5497eb327fd7",
+      "source_ce_first_100": 1.0426621896028518,
+      "source_ce_last_100": 0.37138969026505947
+    },
+    {
+      "method": "DAPrompt",
+      "source": "Clipart",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 30000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 202.51836751005612,
+      "peak_memory_gib": 7.413117408752441,
+      "learnable_parameters": 40960,
+      "optimizer": "SGD",
+      "learning_rate": 0.003,
+      "threshold": 0.6,
+      "upstream_sha": "f24b0c16c06b585104ba97615f89cd5df4def872",
+      "implementation_sha256": "3eac5fb698175fd7d24b380efe2f2577c31977ff218b8298a35f5497eb327fd7",
+      "source_ce_first_100": 1.763901658654213,
+      "source_ce_last_100": 0.8828449988365173
+    },
+    {
+      "method": "DAPrompt",
+      "source": "Product",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 30000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 203.71247973502614,
+      "peak_memory_gib": 7.413117408752441,
+      "learnable_parameters": 40960,
+      "optimizer": "SGD",
+      "learning_rate": 0.003,
+      "threshold": 0.6,
+      "upstream_sha": "f24b0c16c06b585104ba97615f89cd5df4def872",
+      "implementation_sha256": "3eac5fb698175fd7d24b380efe2f2577c31977ff218b8298a35f5497eb327fd7",
+      "source_ce_first_100": 0.6077654271572829,
+      "source_ce_last_100": 0.17552928538993
+    },
+    {
+      "method": "DAPrompt",
+      "source": "Real World",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 30000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 202.29217299702577,
+      "peak_memory_gib": 7.413117408752441,
+      "learnable_parameters": 40960,
+      "optimizer": "SGD",
+      "learning_rate": 0.003,
+      "threshold": 0.6,
+      "upstream_sha": "f24b0c16c06b585104ba97615f89cd5df4def872",
+      "implementation_sha256": "3eac5fb698175fd7d24b380efe2f2577c31977ff218b8298a35f5497eb327fd7",
+      "source_ce_first_100": 0.6753896893560887,
+      "source_ce_last_100": 0.27325687758624556
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Art",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 30000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 202.03317195316777,
+      "peak_memory_gib": 7.413117408752441,
+      "learnable_parameters": 40960,
+      "optimizer": "SGD",
+      "learning_rate": 0.003,
+      "threshold": 0.5,
+      "upstream_sha": "f24b0c16c06b585104ba97615f89cd5df4def872",
+      "implementation_sha256": "3eac5fb698175fd7d24b380efe2f2577c31977ff218b8298a35f5497eb327fd7",
+      "source_ce_first_100": 1.0414290526509284,
+      "source_ce_last_100": 0.3650826274603605
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Clipart",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 30000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 203.18130297702737,
+      "peak_memory_gib": 7.413117408752441,
+      "learnable_parameters": 40960,
+      "optimizer": "SGD",
+      "learning_rate": 0.003,
+      "threshold": 0.5,
+      "upstream_sha": "f24b0c16c06b585104ba97615f89cd5df4def872",
+      "implementation_sha256": "3eac5fb698175fd7d24b380efe2f2577c31977ff218b8298a35f5497eb327fd7",
+      "source_ce_first_100": 1.7699094802141189,
+      "source_ce_last_100": 0.9081320741772652
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Product",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 30000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 202.46543592610396,
+      "peak_memory_gib": 7.413117408752441,
+      "learnable_parameters": 40960,
+      "optimizer": "SGD",
+      "learning_rate": 0.003,
+      "threshold": 0.5,
+      "upstream_sha": "f24b0c16c06b585104ba97615f89cd5df4def872",
+      "implementation_sha256": "3eac5fb698175fd7d24b380efe2f2577c31977ff218b8298a35f5497eb327fd7",
+      "source_ce_first_100": 0.6083360262215137,
+      "source_ce_last_100": 0.17394293628633023
+    },
+    {
+      "method": "DAPrompt-CodeTau",
+      "source": "Real World",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 30000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 202.80749465012923,
+      "peak_memory_gib": 7.413117408752441,
+      "learnable_parameters": 40960,
+      "optimizer": "SGD",
+      "learning_rate": 0.003,
+      "threshold": 0.5,
+      "upstream_sha": "f24b0c16c06b585104ba97615f89cd5df4def872",
+      "implementation_sha256": "3eac5fb698175fd7d24b380efe2f2577c31977ff218b8298a35f5497eb327fd7",
+      "source_ce_first_100": 0.6788236086070537,
+      "source_ce_last_100": 0.2768931534513831
+    },
+    {
+      "method": "ADCLIP-Code",
+      "source": "Art",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 90000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 2943.6789818489924,
+      "peak_memory_gib": 7.083327770233154,
+      "learnable_parameters": 1314821,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "threshold": null,
+      "upstream_sha": "06a30ce32ab7a0dcc29a5ac72e66c4e868f70c89",
+      "implementation_sha256": "db98db997f98219f6a10533428c2e2f25eba676cb5e3ac21e0408f3a0f64ae96",
+      "source_ce_first_100": 0.9602358523011207,
+      "source_ce_last_100": 0.05502000046893954
+    },
+    {
+      "method": "ADCLIP-Code",
+      "source": "Clipart",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 90000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 2941.1524035159964,
+      "peak_memory_gib": 7.083327770233154,
+      "learnable_parameters": 1314821,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "threshold": null,
+      "upstream_sha": "06a30ce32ab7a0dcc29a5ac72e66c4e868f70c89",
+      "implementation_sha256": "db98db997f98219f6a10533428c2e2f25eba676cb5e3ac21e0408f3a0f64ae96",
+      "source_ce_first_100": 1.6846945995092393,
+      "source_ce_last_100": 0.547452439814806
+    },
+    {
+      "method": "ADCLIP-Code",
+      "source": "Product",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 90000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 2935.000942618819,
+      "peak_memory_gib": 7.083327770233154,
+      "learnable_parameters": 1314821,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "threshold": null,
+      "upstream_sha": "06a30ce32ab7a0dcc29a5ac72e66c4e868f70c89",
+      "implementation_sha256": "db98db997f98219f6a10533428c2e2f25eba676cb5e3ac21e0408f3a0f64ae96",
+      "source_ce_first_100": 0.5626051123440265,
+      "source_ce_last_100": 0.11869934394024312
+    },
+    {
+      "method": "ADCLIP-Code",
+      "source": "Real World",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 90000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 2935.8233507610857,
+      "peak_memory_gib": 7.083327770233154,
+      "learnable_parameters": 1314821,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "threshold": null,
+      "upstream_sha": "06a30ce32ab7a0dcc29a5ac72e66c4e868f70c89",
+      "implementation_sha256": "db98db997f98219f6a10533428c2e2f25eba676cb5e3ac21e0408f3a0f64ae96",
+      "source_ce_first_100": 0.6045326034724713,
+      "source_ce_last_100": 0.19360102880746127
+    },
+    {
+      "method": "ADCLIP-Registered",
+      "source": "Art",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 90000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 2982.3952807460446,
+      "peak_memory_gib": 7.1187872886657715,
+      "learnable_parameters": 5743109,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "threshold": null,
+      "upstream_sha": "06a30ce32ab7a0dcc29a5ac72e66c4e868f70c89",
+      "implementation_sha256": "db98db997f98219f6a10533428c2e2f25eba676cb5e3ac21e0408f3a0f64ae96",
+      "source_ce_first_100": 0.9243002638220787,
+      "source_ce_last_100": 0.27552042461931703
+    },
+    {
+      "method": "ADCLIP-Registered",
+      "source": "Clipart",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 90000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 2976.816658540163,
+      "peak_memory_gib": 7.1187872886657715,
+      "learnable_parameters": 5743109,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "threshold": null,
+      "upstream_sha": "06a30ce32ab7a0dcc29a5ac72e66c4e868f70c89",
+      "implementation_sha256": "db98db997f98219f6a10533428c2e2f25eba676cb5e3ac21e0408f3a0f64ae96",
+      "source_ce_first_100": 1.613798279762268,
+      "source_ce_last_100": 0.6837043640017509
+    },
+    {
+      "method": "ADCLIP-Registered",
+      "source": "Product",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 90000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 2975.217948290985,
+      "peak_memory_gib": 7.1187872886657715,
+      "learnable_parameters": 5743109,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "threshold": null,
+      "upstream_sha": "06a30ce32ab7a0dcc29a5ac72e66c4e868f70c89",
+      "implementation_sha256": "db98db997f98219f6a10533428c2e2f25eba676cb5e3ac21e0408f3a0f64ae96",
+      "source_ce_first_100": 0.5026581860333681,
+      "source_ce_last_100": 0.19416126484051346
+    },
+    {
+      "method": "ADCLIP-Registered",
+      "source": "Real World",
+      "seed": 42,
+      "source_updates": 1000,
+      "updates_per_target": 1000,
+      "source_draws": 30000,
+      "draws_per_target": 30000,
+      "source_ce_sample_views": 90000,
+      "optimizer_steps": 1000,
+      "seconds_including_evaluation": 2958.5197070599534,
+      "peak_memory_gib": 7.1187872886657715,
+      "learnable_parameters": 5743109,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "threshold": null,
+      "upstream_sha": "06a30ce32ab7a0dcc29a5ac72e66c4e868f70c89",
+      "implementation_sha256": "db98db997f98219f6a10533428c2e2f25eba676cb5e3ac21e0408f3a0f64ae96",
+      "source_ce_first_100": 0.5436968956887722,
+      "source_ce_last_100": 0.28164719738066196
+    }
+  ]
+}

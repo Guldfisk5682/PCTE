@@ -1,0 +1,15 @@
+question,source,method,control,delta_pp,std_pp,paired_seeds
+E2H,Art,R1,R0M,-0.08350411502192401,,1
+E2H_uniform,Art,R2,R1,0.30800445322151404,,1
+E2H_bank,Art,R3,R2,0.08221927531329243,,1
+joint_uniform,Art,R4,R0M,0.21144314467109382,,1
+joint_bank,Art,R5,R4,0.046074731819985004,,1
+refresh,Art,R6,R5,0.13368110751153495,,1
+matched_control,Art,R0M,R0,0.0,,1
+E2H,All,R1,R0M,-0.08350411502192401,,1
+E2H_uniform,All,R2,R1,0.30800445322151404,,1
+E2H_bank,All,R3,R2,0.08221927531329243,,1
+joint_uniform,All,R4,R0M,0.21144314467109382,,1
+joint_bank,All,R5,R4,0.046074731819985004,,1
+refresh,All,R6,R5,0.13368110751153495,,1
+matched_control,All,R0M,R0,0.0,,1

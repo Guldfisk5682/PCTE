@@ -1,0 +1,56 @@
+{
+  "checkpoint_sha256": "afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762",
+  "cache_fingerprints": {
+    "Art": "ba909255058625d92538bf9f3de3a9ef793f4092fb800f8165aec631699ea09f",
+    "Clipart": "592d4e842acefeefeb453b2ae867d0fa1887a7262b2ca54121689ac4dd2fced6",
+    "Product": "49499e6d42e9ac7368e52656c3a17fbe512673e6c55734deb5548b80f2fc6b29",
+    "Real World": "71ab3d02f698170dbc1a0fe00a21f5264a557f1884d9e1f2fb2325548137f351"
+  },
+  "offline_only": true,
+  "results": {
+    "CLIP Zero-shot": {
+      "template": "A photo of a {}",
+      "domains": {
+        "Art": {
+          "accuracy": 0.7177585496497734,
+          "samples": 2427
+        },
+        "Clipart": {
+          "accuracy": 0.5170675830469645,
+          "samples": 4365
+        },
+        "Product": {
+          "accuracy": 0.823608920928137,
+          "samples": 4439
+        },
+        "Real World": {
+          "accuracy": 0.8271746614643103,
+          "samples": 4357
+        }
+      },
+      "macro_accuracy": 0.7214024287722963
+    },
+    "CLIP Zero-shot (DAPL template)": {
+      "template": "a photo of a {}.",
+      "domains": {
+        "Art": {
+          "accuracy": 0.7181705809641533,
+          "samples": 2427
+        },
+        "Clipart": {
+          "accuracy": 0.5184421534936999,
+          "samples": 4365
+        },
+        "Product": {
+          "accuracy": 0.8164000901103852,
+          "samples": 4439
+        },
+        "Real World": {
+          "accuracy": 0.8255680514115217,
+          "samples": 4357
+        }
+      },
+      "macro_accuracy": 0.71964521899494
+    }
+  }
+}

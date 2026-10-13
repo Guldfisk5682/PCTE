@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "pytest_passed": 20,
+  "completed_training_runs": 20,
+  "directed_variant_task_results": 36,
+  "logged_parameter_updates": 20000,
+  "full_target_sample_counts_verified": true,
+  "initial_contexts_match_across_variants": true,
+  "source_bank_tensors_match_across_variants": true,
+  "prompt_only_optimizer_tensor_counts": {
+    "A": 5,
+    "B": 8,
+    "C": 3
+  },
+  "real_data_resume_matches_continuous_training_exactly": true,
+  "completed_run_skip_verification": 20,
+  "formal_run_failures": 0,
+  "upstream_sha": "2c032a62fc706b643bfc30f49c9a064dd24aa7ac",
+  "implementation_sha256": "4ea3c0f993cdea0b38ff165236b94044e1308d2bec7c55b178fb9a13727edc28"
+}

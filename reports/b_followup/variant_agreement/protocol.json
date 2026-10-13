@@ -1,0 +1,8 @@
+{
+  "training_feedback": false,
+  "uses_target_labels": true,
+  "oracle_teachers": false,
+  "source_trajectory_diagnostic_only": false,
+  "source_final_checkpoint_inference_only": true,
+  "source_reconstruction_final_parameters_exact": true
+}

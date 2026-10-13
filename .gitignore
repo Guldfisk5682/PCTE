@@ -7,3 +7,18 @@ log/
 log_err/
 .sh
 plot/
+runs/
+.pytest_cache/
+*.pyc
+.venv*/
+
+# Local data, pretrained weights, credentials, and generated model artifacts.
+data/
+datasets/
+weights/
+*.pt
+*.pth
+*.ckpt
+.env
+.env.*
+!.env.example

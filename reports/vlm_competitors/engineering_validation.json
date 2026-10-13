@@ -1,0 +1,10 @@
+{
+  "pytest_passed": 57,
+  "dapl_resume_matches_uninterrupted_exactly": true,
+  "adclip_code_smoke_steps": 12,
+  "adclip_registered_smoke_steps": 12,
+  "clip_frozen_gradient_checks": true,
+  "checkpoint_prediction_roundtrip_verified": true,
+  "formal_histories_not_yet_complete": false,
+  "completed_formal_runs": 16
+}
